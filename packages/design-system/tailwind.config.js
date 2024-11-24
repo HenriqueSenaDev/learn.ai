@@ -3,9 +3,9 @@ module.exports = {
   darkMode: ["class"],
   content: [
     // NextJS app/pages router and components.
-    "./app/**/*.{ts,tsx}",
-    "./pages/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
+    "./src/app/**/*.{ts,tsx}",
+    "./src/pages/**/*.{ts,tsx}",
+    "./src/components/**/*.{ts,tsx}",
     // Design System components.
     "../../packages/design-system/src/**/*.{jsx,tsx}",
   ],
