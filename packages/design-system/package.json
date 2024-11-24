@@ -1,11 +1,11 @@
 {
   "name": "design-system",
   "version": "1.0.0",
-  "module": "",
   "description": "Next-based design-system shared across web applications.",
   "author": "HenriqueSenaDev",
   "license": "ISC",
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.460.0",
