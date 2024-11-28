@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "design-system/globals.css";
+import { typography } from "../assets/fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body className={`${typography.plusJakartaSans.className} antialiased`}>
         {children}
       </body>
     </html>
