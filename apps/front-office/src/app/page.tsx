@@ -22,7 +22,10 @@ export default function Landing() {
           <div className="flex flex-col gap-4 md:gap-7 lg:justify-center">
             <div className="text-content font-semibold">
               <h1 className="text-[34px] leading-[1.33] md:text-5xl lg:text-[56px] lg:leading-[1.57]">
-                Libere <strong className="font-semibold text-primary">a inteligência</strong>
+                Libere{" "}
+                <strong className="font-semibold text-primary">
+                  a inteligência
+                </strong>
               </h1>
 
               <h2 className="text-2xl md:text-4xl lg:text-[44px]">
@@ -30,8 +33,12 @@ export default function Landing() {
               </h2>
             </div>
 
-            <p className={`${typography.petrona.className} text-[15px] text-paragraph font-semibold md:text-lg lg:text-[22px] lg:leading-[1.3] lg:max-w-[600px]`}>
-              Aprimore suas habilidades com conteúdo exclusivo, guiado pelos melhores especialistas. Comece hoje e construa o  futuro dos seus sonhos.
+            <p
+              className={`${typography.petrona.className} text-[15px] text-paragraph font-semibold md:text-lg lg:text-[22px] lg:leading-[1.3] lg:max-w-[600px]`}
+            >
+              Aprimore suas habilidades com conteúdo exclusivo, guiado pelos
+              melhores especialistas. Comece hoje e construa o futuro dos seus
+              sonhos.
             </p>
 
             <div className="w-full flex gap-x-3 gap-y-1 items-center flex-wrap md:gap-x-4 lg:mt-[22px]">
@@ -44,7 +51,6 @@ export default function Landing() {
                 variant="link"
               >
                 <SparklesIcon className="text-content md:!w-5 md:!h-5" />
-
                 Insigths com ChatGPT!
               </Button>
             </div>
