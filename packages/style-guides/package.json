@@ -1,0 +1,10 @@
+{
+  "name": "style-guides",
+  "version": "1.0.0",
+  "description": "ESlint and Prettier config shared across applications.",
+  "author": "HenriqueSenaDev",
+  "license": "ISC",
+  "exports": {
+    "./eslint-presets/*": "./eslint-presets/*"
+  }
+}

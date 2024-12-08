@@ -1,3 +1,10 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"]
+  "extends": [
+    // Workspace shared base configuration.
+    "../../packages/style-guides/eslint-presets/base.json",
+    // Includes react/recommended, react-hooks/recommended, babel-parser.
+    "next/core-web-vitals",
+    // Includes typescript-eslint/recommended and ts-parser.
+    "next/typescript"
+  ]
 }
