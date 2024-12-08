@@ -5,6 +5,7 @@
   "author": "HenriqueSenaDev",
   "license": "ISC",
   "exports": {
-    "./eslint-presets/*": "./eslint-presets/*"
+    "./eslint-presets/*": "./eslint-presets/*",
+    "./prettier-config/*": "./prettier-config/*"
   }
 }
